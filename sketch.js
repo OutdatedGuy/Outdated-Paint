@@ -12,7 +12,7 @@ var reset; //clear button
 
 function setup() {
   //for no trails
-  createCanvas(1366, 768);
+  createCanvas(displayWidth, displayHeight);
 
   //for trails
   extra1 = createGraphics(width, height);
